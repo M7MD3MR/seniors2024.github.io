@@ -1,0 +1,55 @@
+/* Add styles for the header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+/* Add styles for the main section */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.student {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.profile {
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile img {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile h2 {
+    margin-top: 0;
+}
+
+.profile p {
+    margin-bottom: 10px;
+}
+
+/* Add styles for the footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
