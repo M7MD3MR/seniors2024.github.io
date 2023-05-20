@@ -7,6 +7,7 @@
     <title>Class Of 2024</title>
     <link rel="icon" type="image/x-icon" href="/images/graduation-cap-solid.ico">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.7/dist/tailwind.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 
 <body>
@@ -29,9 +30,6 @@
                         </a>
                     </div>
                 </div>
-                <button id="dark-mode-toggle" class="text-xl focus:outline-none">
-                    <i class="far fa-moon"></i>
-                </button>
             </div>
         </div>
     </nav>
@@ -49,41 +47,25 @@
                 <p class="text-gray-600 mb-2"><i class="fas fa-envelope mr-2"></i>Email: student@example.com</p>
                 <div class="flex mt-4">
                     <a href="https://www.facebook.com/" target="_blank" class="mr-2">
-                        <img src="facebook_logo.png" alt="Facebook" class="w-6 h-6">
+                        <i class="fab fa-facebook fa-lg text-gray-600 hover:text-blue-500"></i>
                     </a>
                     <a href="https://www.instagram.com/" target="_blank" class="mr-2">
-                        <img src="instagram_logo.png" alt="Instagram" class="w-6 h-6">
+                        <i class="fab fa-instagram fa-lg text-gray-600 hover:text-pink-500"></i>
                     </a>
                     <a href="https://www.twitter.com/" target="_blank">
-                        <img src="twitter_logo.png" alt="Twitter" class="w-6 h-6">
+                        <i class="fab fa-twitter fa-lg text-gray-600 hover:text-blue-400"></i>
                     </a>
                 </div>
             </div>
             <div class="w-2/3">
-                <h3 class="text-lg font-bold mb-4">Send Message</h3>
-                <form action="sendEmail.php" method="POST">
-                    <input type="hidden" name="recipient" value="idkwtnms@gmail.com">
-                    <div class="mb-4">
-                        <label for="name" class="block text-gray-600">Name:</label>
-                        <input type="text" id="name" name="name" class="w-full border border-gray-300 rounded-md p-2">
-                    </div>
-                    <div class="mb-4">
-                        <label for="email" class="block text-gray-600">Email:</label>
-                        <input type="email" id="email" name="email"
-                            class="w-full border border-gray-300 rounded-md p-2">
-                    </div>
-                    <div class="mb-4">
-                        <label for="message" class="block text-gray-600">Message:</label>
-                        <textarea id="message" name="message" class="w-full border border-gray-300 rounded-md p-2"
-                            rows="5"></textarea>
-                    </div>
-                    <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                        Send
-                    </button>
-                </form>
+                <h3 class="text-lg font-bold mb-4">Student's Name</h3>
+                <p>Student's email: student@example.com</p>
+                <!-- Add student's name and email here -->
             </div>
         </div>
     </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
 </body>
 
 </html>
