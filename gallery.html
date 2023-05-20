@@ -4,25 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Photo Gallery</title>
+    <title>Gallery</title>
     <link rel="icon" type="image/x-icon" href="/images/graduation-cap-solid.ico">
     <!-- Include Tailwind CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"/>
 </head>
 
 <body class="bg-gray-100">
-    <!-- Navigation bar -->
-    <nav class="bg-white shadow-lg">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between h-16">
-                <div class="flex-shrink-0 flex items-center">
-                    <a href="index.html" class="font-bold text-xl">Seniors 2024</a>
-                </div>
-                <div class="flex items-center">
-                    <a href="/gallery.html"
-                        class="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-100">Gallery</a>
-                    <a href="/contact.html"
-                        class="ml-4 px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-100">Contact</a>
+    <!-- Navbar -->
+    <nav class="bg-white drop-shadow-lg py-4">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center">
+                <a href="index.html" class="text-2xl font-bold bo">Seniors 2024 &nbsp </a>
+                <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+                    <div class="text-sm lg:flex-grow">
+                        <a href="profiles.html"
+                            class="block mt-4 lg:inline-block lg:mt-0 text-gray-400 hover:text-white mr-4">
+                            Profiles
+                        </a>
+                        <a href="gallery.html"
+                            class="block mt-4 lg:inline-block lg:mt-0 text-gray-400 hover:text-white mr-4">
+                            Gallery
+                        </a>
+                        <a href="contact.html" class="block mt-4 lg:inline-block lg:mt-0 text-gray-400 hover:text-white">
+                            Contact
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
