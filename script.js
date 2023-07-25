@@ -12,11 +12,9 @@ document.addEventListener('DOMContentLoaded', function () {
         const email = document.getElementById('email').value;
         const message = document.getElementById('message').value;
 
-        // Perform any necessary validation
-        // ...
-
         // Send the form data to the server (example using console.log)
-        console.log('Form submitted:');
+        console.log("What are you looking for?")
+        console.log("Here is a sample of what you sent:")
         console.log('First Name:', firstName);
         console.log('Last Name:', lastName);
         console.log('Email:', email);
